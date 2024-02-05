@@ -127,6 +127,7 @@ const renderEventDefault = (event) => {
   e.dataset.startDate = event.startDate
   e.dataset.endDate = event.endDate
   e.dataset.today = event.today
+  e.dataset.id = event.id
   e.dataset.symbol = event.symbol.join(' ')
 
   e.style.setProperty('--calendarColor', event.color)
