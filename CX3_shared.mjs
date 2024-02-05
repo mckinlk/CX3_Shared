@@ -129,7 +129,7 @@ const renderEventDefault = (event) => {
   e.dataset.today = event.today
   e.dataset.id = event.id
   e.dataset.symbol = event.symbol.join(' ')
-
+  e.dataset.noMarquee = 'false'
   e.style.setProperty('--calendarColor', event.color)
   oppositeMagic(e, event)
   return e
