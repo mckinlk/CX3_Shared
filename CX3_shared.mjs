@@ -660,6 +660,7 @@ export {
   prepareIconify,
   regularizeEvents,
   calendarFilter,
+  getContrastYIQ,
   addEventsToPool,
   //scheduledRefresh,
   prepareEvents,
